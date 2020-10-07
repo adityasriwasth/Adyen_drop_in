@@ -1,4 +1,4 @@
-#Aditya's Test Shop (A demo for Adyen's Drop-in solution)
+Aditya's Test Shop (A demo for Adyen's Drop-in solution)
 
 In this project, I have created a simple shopping cart to process a payment using Adyen's drop-in solution. Adyen's drop-in solution aims to provide a simple and seamless integration in order to process payments for your online storefront.
 
@@ -8,15 +8,15 @@ I utilized the Python SDK provided by Adyen as a starting point to build this pr
 
 To start the program, these are the requirements and installation steps:
 
-#Requirements:
-*Python 3.5 or greater
+Requirements:
+Python 3.5 or greater
 
-#Python libraries:
-*flask
-*Adyen
+Python libraries:
+flask
+Adyen
 
-#Installation:
-*Clone this repo
-*Navigate to root level of repo
-*Activate venv with: ./venv/bin/activate
-*Run source: ./setup.sh
+Installation:
+Clone this repo
+Navigate to root level of repo
+Activate venv with: ./venv/bin/activate
+Run source: ./setup.sh
