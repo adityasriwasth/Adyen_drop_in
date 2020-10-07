@@ -18,5 +18,5 @@ Python libraries:
 Installation:
 1) Clone this repo
 2) Navigate to root level of repo
-3) Activate venv with: ./venv/bin/activate
-4) Run source: ./setup.sh
+3) (Optional) Activate venv with: ./venv/bin/activate
+4) Start Program with: ./start.sh
