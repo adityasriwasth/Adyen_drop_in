@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+    <div class='main-container'>
+        <div class="info">
+            <h1>Aditya's Shop</h1>
+            <p>Run by an avid supporter of Liverpool Football Club, Aditya's Shop specalizes in selling everything related to Liverpool FC.</p>
+            <p>
+              Please click the Drop-in button below to view a demo of Adyen's Drop-in solution
+            </p>
+        </div>
+        <div class="Drop-in">
+        <ul class="integration-list">
+            <li class="integration-list-item">
+                <a class="integration-list-item-link" href="{{ url_for('cart', integration="dropin") }}">
+                    <div class="title-container">
+                        <p class="integration-list-item-title">Drop-in</p>
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div class="info">
+            <p>
+              For a list of test credit cards, click <a target="_blank" href="https://docs.adyen.com/development-resources/test-cards/test-card-numbers#visa">here</a>
+            </p>
+            <p>
+              To learn more about Adyen's drop-in solution, click <a target="_blank" href="https://docs.adyen.com/checkout/drop-in-web#page-introduction">here</a>
+            </p>
+        </div>    
+    </div>
+{% endblock %}
