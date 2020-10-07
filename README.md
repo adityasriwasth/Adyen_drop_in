@@ -12,8 +12,8 @@ Requirements:
 Python 3.5 or greater
 
 Python libraries:
-flask
-Adyen
+1) flask
+2) Adyen
 
 Installation:
 1) Clone this repo
