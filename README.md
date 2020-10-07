@@ -16,7 +16,7 @@ flask
 Adyen
 
 Installation:
-Clone this repo
-Navigate to root level of repo
-Activate venv with: ./venv/bin/activate
-Run source: ./setup.sh
+1) Clone this repo
+2) Navigate to root level of repo
+3) Activate venv with: ./venv/bin/activate
+4) Run source: ./setup.sh
